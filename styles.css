@@ -1,0 +1,279 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0)
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+}
+
+#picDiv {
+    flex: 8;
+    /* border: 2px solid green; */
+    width: 90vw;
+    padding-left: 30px;
+}
+
+#pic1 {  
+    width: 90vw;
+    height: 90vh;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(44, 43, 43);
+    -moz-box-shadow: 2px 2px 2px rgb(44, 44, 44);
+    -webkit-box-shadow: 2px 2px 8px rgb(49, 47, 47);
+    -khtml-box-shadow: 2px 2px 2px #ccc;
+}
+
+
+#nav {
+    /* border: 1px solid rgb(0, 0, 0); */
+    padding-top: 0px;
+    flex: 1;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    position: sticky; 
+    top: 0; 
+    left: 0; 
+    height: 100%; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    /* flex-direction: column; */
+    
+}
+#navBtn:hover {
+    background-color: rgb(3, 186, 0);
+    font-size: x-large;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(44, 43, 43);
+    -moz-box-shadow: 2px 2px 2px rgb(44, 44, 44);
+    -webkit-box-shadow: 2px 2px 8px rgb(49, 47, 47);
+    -khtml-box-shadow: 2px 2px 2px #ccc;
+
+  }
+
+#navBtn {
+    color: rgb(0, 0, 0);
+    
+}
+
+#nameTag {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+    margin-top: -16px;
+}
+
+#nameTitle {
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#facePic{
+    width: 90px;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(44, 43, 43);
+    -moz-box-shadow: 2px 2px 2px rgb(44, 44, 44);
+    -webkit-box-shadow: 2px 2px 8px rgb(49, 47, 47);
+    -khtml-box-shadow: 2px 2px 2px #ccc;
+}
+
+#topNav{
+    text-align: center;
+}
+
+#skillsList{
+    font-size: 12px;
+    text-align: center;
+}
+
+#skillsPic {
+    width: 50px;
+    
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+}
+
+#aboutPic{
+    width: 250px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(44, 43, 43);
+    -moz-box-shadow: 2px 2px 2px rgb(44, 44, 44);
+    -webkit-box-shadow: 2px 2px 8px rgb(49, 47, 47);
+    -khtml-box-shadow: 2px 2px 2px #ccc;
+}
+
+#aboutPic2 {
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 150px;
+    box-shadow: 2px 2px 2px rgb(44, 43, 43);
+    -moz-box-shadow: 2px 2px 2px rgb(44, 44, 44);
+    -webkit-box-shadow: 2px 2px 8px rgb(49, 47, 47);
+    -khtml-box-shadow: 2px 2px 2px #ccc;
+}
+
+#aboutLeft{
+    flex: 1;
+    padding-right: 100px;
+}
+
+#aboutRight{
+    flex: 1;
+    padding-left: 150px;
+}
+
+.education2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+#eduTitle{
+    flex: 2;
+    text-align: left;
+    
+}
+
+#eduMid{
+    flex: 3;
+    padding-top: 50px;
+    text-align: left;
+    
+    /* border: 1px solid blue; */
+
+}
+
+#eduRight{
+    flex: 4;
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 100px;
+    
+}
+
+#eduList{
+    text-align: left;
+}
+
+#devTitle{
+    /* color: rgb(11, 37, 151); */
+    margin-top: 0px;
+}
+
+#belTitle{
+    /* color: rgb(149, 41, 149); */
+    margin-top: 0px;
+}
+
+#schoolLogo{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 0px;
+}
+
+#schoolLogo2{
+    width: 200px;
+    height: 120px;
+}
+
+.contactDiv {
+    display: flex;
+}
+
+#contactTitle{
+    flex: 2;
+}
+
+#contactForm{
+    flex: 3;
+    background-color: rgba(253, 251, 251, 0.705);
+    color: rgb(0, 0, 0);
+    text-align: center;   
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    /* box-shadow: 2px 2px 2px rgb(44, 43, 43);
+    -moz-box-shadow: 2px 2px 2px rgb(44, 44, 44);
+    -webkit-box-shadow: 2px 2px 8px rgb(49, 47, 47);
+    -khtml-box-shadow: 2px 2px 2px #ccc; */
+}
+
+#contactText{
+    flex: 3;
+    text-align: center;
+    margin-top: 100px;
+    font-style: italic;
+    
+}
+
+#comment{
+    width: 732px;
+}
+
+#contactBtn{
+    background-color: hsla(120, 1%, 45%, 0);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#contactBtn:hover{
+    border: 2px solid rgb(255, 255, 255);
+    
+}
+
+#backToTop{
+    font-size: large;
+}
+
+#projectsRow1{
+    display: flex;
+}
+
+#projectDiv1{
+    flex: 1;
+}
+
+#projectDiv2{
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#projectImages1{
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(44, 43, 43);
+    -moz-box-shadow: 2px 2px 2px rgb(44, 44, 44);
+    -webkit-box-shadow: 2px 2px 8px rgb(49, 47, 47);
+    -khtml-box-shadow: 2px 2px 2px #ccc;
+}
+
+
+
