@@ -15,7 +15,7 @@ a {
 #picDiv {
     flex: 8;
     /* border: 2px solid green; */
-    width: 90vw;
+    width: auto;
     padding-left: 30px;
 }
 
